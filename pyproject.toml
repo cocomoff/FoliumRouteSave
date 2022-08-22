@@ -11,9 +11,6 @@ numpy = "^1.23.2"
 folium = "^0.12.1"
 python-dotenv = "^0.20.0"
 openrouteservice = "^2.3.3"
-branca = "^0.5.0"
-selenium = "^4.4.2"
-webdriver-manager = "^3.8.3"
 pyppeteer = "^1.0.2"
 
 [tool.poetry.dev-dependencies]

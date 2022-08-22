@@ -3,7 +3,6 @@ import folium
 from os.path import join, dirname
 from dotenv import load_dotenv
 import openrouteservice
-# from branca.element import Figure
 from openrouteservice import convert
 import asyncio
 from pyppeteer import launch

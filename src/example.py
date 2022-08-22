@@ -3,7 +3,6 @@ import folium
 from os.path import join, dirname
 from dotenv import load_dotenv
 import openrouteservice
-# from branca.element import Figure
 from openrouteservice import convert
 import asyncio
 from pyppeteer import launch
@@ -19,7 +18,7 @@ async def main(coord, lat, long):
     page = await browser.newPage()
     await page.goto(f"file://{os.path.abspath('.')}/map.html")
     await page.setViewport({'width': 1080, 'height': 1080})
-    await page.waitFor(2000)
+    await page.waitFor(5000)
     await page.screenshot({'path': 'map.png'})
     os.remove("map.html")
 
